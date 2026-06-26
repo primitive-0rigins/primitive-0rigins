@@ -1,30 +1,67 @@
 # Primitive Origin LLC
 
-Building local-first tools for memory, networks, and agentic systems.
+AI systems, local-first infrastructure, and compact technical prototypes.
 
-## Current Projects
+This profile is a portfolio of systems work: original project ideas, scoped MVPs,
+working demos, tests, and clear boundaries between what is implemented and what is roadmap.
+
+## Focus
+
+- Applied AI systems and agentic workflows
+- Local-first memory, retrieval, and automation tools
+- Rust networking and infrastructure prototypes
+- Small codebases with reproducible demos
+- Architecture that can be explained, tested, and inspected
+
+## Featured Work
 
 ### Mosaic
 
-Agentic pixel-hypergraph memory for documents. Mosaic treats documents as visual tiles,
-stores relationships as hyperedges, and uses a local agent loop to retrieve, validate,
-re-query, and build memory over time.
+Pixel-hypergraph memory for visual documents.
+
+Mosaic renders documents into image tiles, stores tile metadata as hypergraph nodes,
+retrieves visually similar tiles with local pixel-derived vectors, links evidence with
+hyperedges, and exports inspectable reports and demo artifacts.
+
+What it demonstrates:
+
+- Visual-first retrieval architecture
+- Hypergraph memory modeling
+- Honest prototype boundaries around VLM and agent roadmap work
+- Runnable CLI, tests, static report, and generated demo video
 
 Repository: https://github.com/primitive-0rigins/mosaic
 
 ### Tendril
 
-A self-healing, self-discovering mesh network built from scratch in Rust. Tendril focuses
-on local discovery, heartbeat-based liveness, automatic recovery, and a simple Pulse beacon
-for adding new machines to the mesh.
+Self-discovering mesh-network prototype in Rust.
+
+Tendril contains a mesh daemon, Pulse beacon, JSON-over-UDP protocol, heartbeat state,
+recovery flow, local registry persistence, inspection commands, and a one-command demo.
+
+What it demonstrates:
+
+- Rust workspace structure
+- UDP protocol design
+- Node liveness and recovery state modeling
+- Testable local infrastructure without cloud dependencies
 
 Repository: https://github.com/primitive-0rigins/tendril
 
-## Direction
+## How To Evaluate The Repos
 
-- Local-first infrastructure
-- Agentic memory systems
-- Rust networking experiments
-- Practical tools that can run without cloud dependencies
+Each portfolio project is meant to be run, not just read.
 
-I like building things from the ground up and learning in public.
+Look for:
+
+- README status sections that distinguish working code from roadmap ideas
+- One-command or short CLI demos
+- Tests that exercise the core behavior
+- Small, disciplined implementations rather than large speculative frameworks
+- Reports, videos, or artifacts that make the prototype inspectable
+
+## Working Style
+
+I use AI tools heavily as part of the build process, but the emphasis here is direction:
+choosing the system shape, constraining scope, checking claims against working code, and
+turning ideas into reproducible artifacts.
