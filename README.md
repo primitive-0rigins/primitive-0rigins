@@ -48,9 +48,27 @@ What it demonstrates:
 
 Repository: https://github.com/primitive-0rigins/tendril
 
+### SOMA Codex
+
+Architecture codex for a governed local-first agent runtime.
+
+SOMA defines the theory, invariants, crate map, governance model, and implementation
+contracts for a future Rust-based agent organism. It is included as a systems-design
+artifact, not as a finished runtime.
+
+What it demonstrates:
+
+- Governance-first multi-agent architecture
+- Append-only workspace/event-log design
+- Verification-gated completion and HumanSeat authority
+- Deep architecture writing with explicit implementation boundaries
+
+Repository: https://github.com/primitive-0rigins/soma-codex
+
 ## How To Evaluate The Repos
 
-Each portfolio project is meant to be run, not just read.
+The working prototype projects are meant to be run, not just read. Architecture projects
+should make their boundaries and reasoning clear.
 
 Look for:
 
