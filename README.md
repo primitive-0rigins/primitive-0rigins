@@ -1,9 +1,23 @@
-# Primitive Origin LLC
+# Primitive Origins LLC
 
-Self-taught builder focused on local-first AI systems, Rust infrastructure, and practical tools.
+Self-taught systems builder. Local-first AI, Rust infrastructure, and practical tools —
+with working demos, tests, and honest boundaries between what runs and what's roadmap.
 
-This profile is a portfolio of systems work: original project ideas, scoped MVPs,
-working demos, tests, and clear boundaries between implemented behavior and roadmap work.
+## About
+
+I don't have a computer science degree, and I'm not going to pretend otherwise. My
+formal education is in the trades — HVAC-R and business operations — and I came to
+software from years of hands-on work: mechanical systems, office and Microsoft 365
+administration, and running a small farm.
+
+That background is why the projects here look the way they do. Trades work teaches you
+that a system either holds pressure or it doesn't — there's no partial credit for a
+diagram. So everything on this profile is built to the same standard: runnable demos,
+tests that exercise the real behavior, and README status sections that say plainly what
+works today versus what's an idea. If a claim can't be demonstrated, it doesn't ship.
+
+I founded Primitive Origins LLC to build local-first AI systems — software that runs on
+hardware you own, holds your data on your premises, and can be inspected end to end.
 
 ## Focus
 
@@ -75,6 +89,11 @@ artifact, not as a finished runtime.
 
 Repository: https://github.com/primitive-0rigins/soma-codex
 
+### In Preparation
+
+A governed multi-agent runtime — the working system that SOMA Codex is the design
+language for — is being finished and prepared for public release.
+
 ## How To Evaluate The Repos
 
 The working prototype projects are meant to be run, not just read. Architecture projects
@@ -90,6 +109,12 @@ Look for:
 
 ## Working Style
 
-I use AI tools heavily as part of the build process, but the emphasis here is direction:
-choosing the system shape, constraining scope, checking claims against working code, and
-turning ideas into reproducible artifacts.
+I build with AI agents as a core part of my process, and I'm open about that — it's the
+workflow I'd be hired to bring. My job in the loop is direction and judgment: choosing
+the system shape, constraining scope, reviewing what the tools produce, and refusing to
+ship claims I can't demonstrate. The line between working code and roadmap in every
+README on this profile is where that judgment shows.
+
+## Contact
+
+Bryce Worthy — bryce.worthy.it@gmail.com
