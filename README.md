@@ -29,6 +29,28 @@ hardware you own, holds your data on your premises, and can be inspected end to 
 
 ## Featured Work
 
+### BAR
+
+Behavioral Assurance Runtime — a lightweight, model-optional Rust daemon for
+tracking what a software runtime claims, permits, executes, and can prove.
+
+BAR extracts source-bound behavioral contracts, preserves ambiguity for human
+adjudication, and is designed to prepare and independently verify human-gated
+repairs. It is deliberately model-free by default and keeps intended future
+capabilities distinct from working code.
+
+What it demonstrates:
+
+- Rust workspace architecture, migrations, and hash-chained audit history
+- Evidence-bound contract extraction and fail-safe scope resolution
+- Security-conscious path handling and replay validation
+- A phased build manual with current implementation evidence
+
+Current status: Phase 4 is implementation complete and pending human review;
+Phase 5 static-architecture adapters are next.
+
+Repository: https://github.com/primitive-0rigins/bar
+
 ### Tendril
 
 Self-discovering mesh-network prototype in Rust.
