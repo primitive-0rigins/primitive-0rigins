@@ -46,8 +46,10 @@ What it demonstrates:
 - Security-conscious path handling and replay validation
 - A phased build manual with current implementation evidence
 
-Current status: Phase 4 is implementation complete and pending human review;
-Phase 5 static-architecture adapters are next.
+Current status: phases 0–5 are shipped and tagged as
+[v0.1.0](https://github.com/primitive-0rigins/bar/releases/tag/v0.1.0) —
+including the static-architecture adapters and a runnable tamper-evidence
+demo of the audit chain. Phase 6 proof obligations are in progress.
 
 Repository: https://github.com/primitive-0rigins/bar
 
