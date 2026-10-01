@@ -3,6 +3,14 @@
 Self-taught systems builder. Local-first AI, Rust infrastructure, and practical tools —
 with working demos, tests, and honest boundaries between what runs and what's roadmap.
 
+## Result
+
+**Agent failure and recovery.** 500 constructed practice runs across 8 kinds of break: 350 recovered, 40 after a retry, 50 partial, 60 failed. The public file is the 40-row sample.
+
+https://huggingface.co/datasets/Primitive-Origins/cp-agent-failure-recovery-v0.3.1-sample
+
+The runs are constructed practice cases, and the recovery decision follows a template. This sample does not show that training on the pack makes an agent better.
+
 ## About
 
 I don't have a computer science degree, and I'm not going to pretend otherwise. My
